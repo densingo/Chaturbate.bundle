@@ -34,7 +34,7 @@ REGION_LIST = [
     ]
 
 STATUS_LIST = [
-    ('Exhibitionist Cams', '/exhibitionist-cams'), ('HD Cams', '/hd-cams')
+    ('Exhibitionist Cams', '/exhibitionist-cams'), ('HD Cams', '/hd-cams'), ('New Cams', '/new-cams')
     ]
 
 CAT_DICT = {'Age': {'list': AGE_LIST}}
