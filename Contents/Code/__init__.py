@@ -18,7 +18,7 @@ CAT_LIST = ['Free Cams', 'Free Cams by Age', 'Free Cams by Region', 'Free Cams b
 
 MAIN_LIST = [
     ('Featured', ''), ('Female', '/female'), ('Male', '/male'),
-    ('Couple', '/couple'), ('Transsexual', '/transsexual')
+    ('Couple', '/couple'), ('Transsexual', '/trans')
     ]
 
 AGE_LIST = [
@@ -41,7 +41,7 @@ CAT_DICT = {'Age': {'list': AGE_LIST}}
 CAT_DICT.update({'Region': {'list': REGION_LIST}})
 CAT_DICT.update({'Status': {'list': STATUS_LIST}})
 
-GENDER_DICT = {'f': 'female', 'm': 'male', 'c': 'couple', 's': 'transsexual'}
+GENDER_DICT = {'f': 'female', 'm': 'male', 'c': 'couple', 's': 'trans'}
 
 ####################################################################################################
 
