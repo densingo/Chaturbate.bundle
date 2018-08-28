@@ -7,10 +7,11 @@ This plugin creates a new video channel within [Plex Media Server](https://plex.
 
 ## Features
 
-- Watch Free Adult Live Cams
-- View by Category, Age, Region, or Status
-- Search for model. Must use exact name.
-- ~~Bookmarks~~ _(will implement later, TBA)_
+- [X] Watch Free Adult Live Cams
+- [X] View by Category, Age, Region, or Status
+- [X] Search for model. Must use exact name.
+- [] ~~Bookmarks~~ _(will implement later, TBA)_
+- [X] Search by hashtag
 
 ## How To Install
 
