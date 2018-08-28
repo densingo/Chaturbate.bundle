@@ -75,14 +75,14 @@ def MainMenu():
 
     if Client.Product in DumbKeyboard.clients:
         DumbKeyboard(PREFIX, oc, Search, dktitle='Search', dkthumb=R('icon-search.png'))
-        DumbKeyboard(PREFIX, oc, Hashtag, dktitle='Hashtag', dkthumb=R('icon-search.png'))
+        DumbKeyboard(PREFIX, oc, Hashtag, dktitle='#Hashtag', dkthumb=R('icon-search.png'))
     else:
         oc.add(InputDirectoryObject(
             key=Callback(Search), title='Search', summary='Search Chaturbate',
             prompt='Search for...', thumb=R('icon-search.png')
             ))
         oc.add(InputDirectoryObject(
-            key=Callback(Hashtag), title='Hashtag', summary='Hashtag Chaturbate',
+            key=Callback(Hashtag), title='#Hashtag', summary='Hashtag Chaturbate',
             prompt='Search hashtag...', thumb=R('icon-search.png')
             ))
 
@@ -230,4 +230,4 @@ def Hashtag(query=''):
     url = '%s/tag/%s' %(BASE_URL, query)
     title = '#' + query
 
-    return DirectoryList(title, url, 1)
+    return CatList(title, url)
